@@ -5,24 +5,27 @@
 //  Created by Higher Visibility on 23/01/2018.
 //  Copyright © 2018 Higher Visibility. All rights reserved.
 //
+//Users/highervisibility/Desktop/motorcycle.json
 
 import UIKit
 import Lottie
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var imageView: UIImageView!
-    var animationView: LOTAnimationView = LOTAnimationView(name: "SpinnerSpin");
+   
+    @IBOutlet weak var lottieView: LOTAnimationView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let animationView = LOTAnimationView(name: "flight");
-        let frame = CGRect(x: 20, y: 40, width: 200, height: 200)
-        self.view.addSubview(animationView)
+        let animationView = LOTAnimationView(name: "radar");
+        let frame = CGRect(x: 0, y:0, width: self.lottieView.frame.size.width, height: self.lottieView.frame.size.height)
+        animationView.center = self.lottieView.center
+        self.lottieView.addSubview(animationView)
         animationView.frame = frame
-        //animationView.frame.origin.y = 400
-        animationView.autoReverseAnimation = true
+      
+        animationView.autoReverseAnimation = false
         animationView.loopAnimation = true
         animationView.play()
 

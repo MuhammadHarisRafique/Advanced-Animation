@@ -10,6 +10,12 @@
 		4D00885B201776B000343DF7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D00885A201776B000343DF7 /* logo.png */; };
 		4D00885D2017823F00343DF7 /* Switch.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D00885C2017823F00343DF7 /* Switch.json */; };
 		4D00885F2017851500343DF7 /* json2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D00885E2017851500343DF7 /* json2.json */; };
+		4D84698F201CB3D2006EC863 /* motorcycle.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D84698E201CB3D2006EC863 /* motorcycle.json */; };
+		4D846991201CB6A2006EC863 /* radar.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D846990201CB6A2006EC863 /* radar.json */; };
+		4D846993201CB6AC006EC863 /* Radar Animation.aep in Resources */ = {isa = PBXBuildFile; fileRef = 4D846992201CB6AB006EC863 /* Radar Animation.aep */; };
+		4D846995201CBA4C006EC863 /* simple_check.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D846994201CBA4C006EC863 /* simple_check.json */; };
+		4D846997201CBABE006EC863 /* loader1.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D846996201CBABE006EC863 /* loader1.json */; };
+		4D846999201CBAC1006EC863 /* loader2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D846998201CBAC1006EC863 /* loader2.json */; };
 		4D867DB42019E35A002BA1AD /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D867DB32019E35A002BA1AD /* loading.json */; };
 		4D867DB62019E65A002BA1AD /* flight.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D867DB52019E65A002BA1AD /* flight.json */; };
 		4D867DB82019E7FA002BA1AD /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D867DB72019E7FA002BA1AD /* news.json */; };
@@ -26,6 +32,12 @@
 		4D00885A201776B000343DF7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		4D00885C2017823F00343DF7 /* Switch.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Switch.json; sourceTree = "<group>"; };
 		4D00885E2017851500343DF7 /* json2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = json2.json; sourceTree = "<group>"; };
+		4D84698E201CB3D2006EC863 /* motorcycle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = motorcycle.json; sourceTree = "<group>"; };
+		4D846990201CB6A2006EC863 /* radar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = radar.json; sourceTree = "<group>"; };
+		4D846992201CB6AB006EC863 /* Radar Animation.aep */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radar Animation.aep"; sourceTree = "<group>"; };
+		4D846994201CBA4C006EC863 /* simple_check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple_check.json; sourceTree = "<group>"; };
+		4D846996201CBABE006EC863 /* loader1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader1.json; sourceTree = "<group>"; };
+		4D846998201CBAC1006EC863 /* loader2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader2.json; sourceTree = "<group>"; };
 		4D867DB32019E35A002BA1AD /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		4D867DB52019E65A002BA1AD /* flight.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flight.json; sourceTree = "<group>"; };
 		4D867DB72019E7FA002BA1AD /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
@@ -57,8 +69,14 @@
 			children = (
 				4D00885E2017851500343DF7 /* json2.json */,
 				4D867DB72019E7FA002BA1AD /* news.json */,
+				4D846990201CB6A2006EC863 /* radar.json */,
+				4D846992201CB6AB006EC863 /* Radar Animation.aep */,
+				4D846998201CBAC1006EC863 /* loader2.json */,
+				4D846994201CBA4C006EC863 /* simple_check.json */,
 				4D867DB52019E65A002BA1AD /* flight.json */,
+				4D846996201CBABE006EC863 /* loader1.json */,
 				4D867DB32019E35A002BA1AD /* loading.json */,
+				4D84698E201CB3D2006EC863 /* motorcycle.json */,
 				4D00885C2017823F00343DF7 /* Switch.json */,
 				4D879726201774E400EE8D5B /* AdvancedAnimation */,
 				4D879725201774E400EE8D5B /* Products */,
@@ -168,14 +186,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D846999201CBAC1006EC863 /* loader2.json in Resources */,
 				4D867DB82019E7FA002BA1AD /* news.json in Resources */,
+				4D846993201CB6AC006EC863 /* Radar Animation.aep in Resources */,
 				4D00885D2017823F00343DF7 /* Switch.json in Resources */,
+				4D846995201CBA4C006EC863 /* simple_check.json in Resources */,
 				4D867DB62019E65A002BA1AD /* flight.json in Resources */,
 				4D00885B201776B000343DF7 /* logo.png in Resources */,
 				4D879732201774E400EE8D5B /* LaunchScreen.storyboard in Resources */,
+				4D846991201CB6A2006EC863 /* radar.json in Resources */,
 				4D87972F201774E400EE8D5B /* Assets.xcassets in Resources */,
 				4D867DB42019E35A002BA1AD /* loading.json in Resources */,
 				4D00885F2017851500343DF7 /* json2.json in Resources */,
+				4D84698F201CB3D2006EC863 /* motorcycle.json in Resources */,
+				4D846997201CBABE006EC863 /* loader1.json in Resources */,
 				4D87972D201774E400EE8D5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

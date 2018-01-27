@@ -18,33 +18,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eO3-gM-8OU">
-                                <rect key="frame" x="112" y="268.5" width="150" height="150"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Looking Driver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QG6-23-SOj">
+                                <rect key="frame" x="9" y="44" width="358" height="97"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="UA8-rO-aI0"/>
-                                    <constraint firstAttribute="height" constant="150" id="zNh-ph-ljF"/>
+                                    <constraint firstAttribute="height" constant="97" id="m0B-Ug-wAT"/>
                                 </constraints>
-                            </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ehb-Cn-rWR" customClass="LOTAnimationView">
-                                <rect key="frame" x="59" y="70" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ehb-Cn-rWR" customClass="LOTAnimationView">
+                                <rect key="frame" x="37.5" y="193.5" width="300" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="8Kr-pL-x63"/>
+                                    <constraint firstAttribute="height" constant="300" id="hTz-H3-zHh"/>
+                                </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="eO3-gM-8OU" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="68k-2E-UVc"/>
-                            <constraint firstItem="eO3-gM-8OU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gJC-tC-Q4b"/>
+                            <constraint firstItem="QG6-23-SOj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="6pF-3e-ntY"/>
+                            <constraint firstItem="QG6-23-SOj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="9" id="ApH-jF-sb8"/>
+                            <constraint firstItem="Ehb-Cn-rWR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XsD-KC-IoX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QG6-23-SOj" secondAttribute="trailing" constant="8" id="YYj-Sd-eHh"/>
+                            <constraint firstItem="Ehb-Cn-rWR" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="vwY-UT-qw4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="eO3-gM-8OU" id="N2N-EU-0yu"/>
+                        <outlet property="lottieView" destination="Ehb-Cn-rWR" id="IW9-eG-De2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-231" y="-33"/>
+            <point key="canvasLocation" x="-231.19999999999999" y="-33.733133433283363"/>
         </scene>
     </scenes>
 </document>
