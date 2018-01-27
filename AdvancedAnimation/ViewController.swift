@@ -13,6 +13,7 @@ import Lottie
 class ViewController: UIViewController {
     
    
+    @IBOutlet weak var loadingView: LOTAnimationView!
     @IBOutlet weak var lottieView: LOTAnimationView!
     
 
@@ -30,5 +31,17 @@ class ViewController: UIViewController {
         animationView.play()
 
 }
+    override func viewDidAppear(_ animated: Bool) {
+        
+        let animationView = LOTAnimationView(name: "loader1");
+        let frame = CGRect(x: 0, y:0, width: self.loadingView.frame.size.width, height: self.loadingView.frame.size.height)
+        //animationView.center = self.loadingView.center
+        self.loadingView.addSubview(animationView)
+        animationView.frame = frame
+        
+        animationView.autoReverseAnimation = true
+        animationView.loopAnimation = true
+        animationView.play()
+    }
 
 }
